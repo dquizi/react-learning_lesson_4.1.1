@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.registration {
+	margin: 0 auto;
+	width: 100%;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	max-width: 200px;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+input:focus::placeholder {
+	color: #fff;
+}
+
+button:hover {
+	background-color: rgb(170, 229, 170);
+	border: 1px solid green;
+}
+
+.error {
+	color: red;
+}
